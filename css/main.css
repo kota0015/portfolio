@@ -1,0 +1,41 @@
+
+/* to update the root as needed  */
+:root{
+    --bs-primary: #ba1899     ;
+    --bs-primary-rgb:186,24,153;
+}
+
+.btn-primary{
+    --bs-btn-bg: var(--bs-primary);
+    --bs-btn-border-color: var(--bs-primary);
+}
+
+/*  CYRAMEART PORTFOLIO*/
+
+.wrapper{
+    max-width: 100em;
+    margin: auto;
+}
+
+.fullbackground{
+    
+    background:  rgb(156, 116, 23)  url(../images/camera-code-s.jpg) no-repeat center center;
+    background-size: cover;
+    border: solid rgb(13, 255, 0) 10px;
+    
+
+
+
+}
+.navbar-brand img{
+    width: 35%;
+}
+/* var(--bs-light) */
+
+h1 span{
+    color:#08C2BC;
+}
+.image-fluid{
+   
+    width: 90%;
+}
