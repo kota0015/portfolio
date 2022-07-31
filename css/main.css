@@ -1,81 +1,196 @@
-
-
 /* to update the root as needed  */
-:root{
-    --bs-primary: #ba1899     ;
-    --bs-primary-rgb:186,24,153;
-    --bs-secondary:rgb(8, 194, 188);
-    --bs-secondary-rgb:8,194,188;
+:root {
+    --bs-primary: #ba1899;
+    --bs-primary-rgb: 186, 24, 153;
+    --bs-secondary: rgb(8, 194, 188);
+    --bs-secondary-rgb: 8, 194, 188;
 }
 
-.btn-primary{
+.btn-primary {
     --bs-btn-bg: var(--bs-primary);
     --bs-btn-border-color: var(--bs-primary);
 }
 
 /*  CYRAMEART PORTFOLIO*/
 
-.wrapper{
+.wrapper {
     max-width: 100em;
     margin: auto;
 }
 
-.fullbackground{
-    
-    background:  rgb(156, 116, 23)  url(../images/camera-code-s.jpg) no-repeat center center;
+.fullbackground {
+
+    background: rgb(156, 116, 23) url(../images/camera-code-s.jpg) no-repeat center center;
     background-size: cover;
-    
-    
+
+
 
 
 
 }
 
-.navbar-brand img{
-    width: 35%;
+.navbar-brand img {
+    width: 45%;
 }
+
 /* var(--bs-light) */
+h1{
+   margin-bottom: 1em;}
 
-h1 span{
-    color:var(--bs-secondary);
+h1 span {
+    color: var(--bs-secondary);
 }
-.image-fluid{
-   
+
+.navbar-toggler {
+
+    /* color: var(--bs-primary); */
+    margin: auto;
+}
+
+.image-fluid {
+
     width: 85%;
     max-height: 300px;
 }
-                /*xxxxx FOOTER  xxxxxxx */
-footer{
+
+/*xxxxx FOOTER  xxxxxxx */
+footer {
     margin: 0;
 }
-footer #logo-b{
-    
+
+footer #logo-b {
+
     height: 100px;
     width: auto;
-   
- }
 
- /*xxxxx Social media icons in footer  xxxxxxx */
- i{
+}
+.footer-column{
+  
+    margin: auto 0;
+}
+/*xxxxx Social media icons in footer  xxxxxxx */
+i {
     color: var(--bs-secondary);
- }
- .sm-icons{
+}
+
+.sm-icons {
     flex-direction: row;
     font-size: 1.4em;
     justify-content: center;
-    
-    
- }
- .sm-icons .nav-link{
-    padding-right: 2em;
-    margin: 1px ;
-    
-    padding: 0 10px;
+
+
+}
+
+.sm-icons .nav-link {
+
+
+
+    margin: 10px;
+
+
+}
+
+
+
+/*xxxxx Media Queries at min-width  960px  xxxxxxx */
+
+@media screen and (min-width: 60em) {
+
+    .navbar-brand{
   
- }
- .navbar-nav{
-   justify-content: center;
+        text-align: left;
+        width: 50%;
+      
+    }
+
+    .navbar-brand img {
+        width: 35%;
+    }
  
+        
+        
+    
+    /* var(--bs-light) */
+    h1{
+        width:75% ;}
+    
+    h1 span {
+        color: var(--bs-secondary);
+
+    }
+    .banner-info{
+       
+        text-align: left;
+    }
+    
    
- }
+  
+    
+    /*xxxxx FOOTER  xxxxxxx */
+    footer {
+        margin: 0;
+    }
+    
+    footer #logo-b {
+    
+        height: 100px;
+        width: auto;
+    
+    }
+    
+    /*xxxxx Social media icons in footer  xxxxxxx */
+    i {
+       
+       margin: 0 10px;
+    }
+    
+    .sm-icons {
+        flex-direction: row;
+        font-size: 1.4em;
+        justify-content: center;
+    
+    
+    }
+    
+    .sm-icons .nav-link {
+    
+    
+    
+        margin: 10px;
+    
+    
+    }
+    hr{
+        margin: 10px auto;
+        width: 80%;
+
+       
+        
+    }
+    .copyright p{
+       
+       margin-top:15px;
+    }
+    
+    footer ul {}
+    
+    .navbar-nav {}
+    
+
+
+
+
+
+
+
+
+}
+
+/*xxxxx close Media  Queries at min-width  960px  xxxxxxx */
+
+
+
+
+
+
 
