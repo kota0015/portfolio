@@ -92,9 +92,10 @@ i {
 
 
 
-/*xxxxx Media Queries at min-width  960px  xxxxxxx */
 
-@media screen and (min-width: 60em) {
+/*xxxxx Media Queries at min-width  768px  xxxxxxx */
+
+@media screen and (min-width: 48em) {
 
     .navbar-brand{
   
