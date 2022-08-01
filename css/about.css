@@ -20,7 +20,7 @@
 
 .fullbackground {
 
-    background: rgb(156, 116, 23) url(../images/camera-code-s.jpg) no-repeat center center;
+    background: rgb(156, 116, 23) url(../images/bridge.jpg) no-repeat center center;
     background-size: cover;
 
 
@@ -46,12 +46,64 @@ h1 span {
     /* color: var(--bs-primary); */
     margin: auto;
 }
+#meimage{
+    
+    width: 100%;
+    opacity: 0.90;
+    z-index: 10;
+    
+  
+}
+.banner p{
+    padding: 10px;
+    width: 80%;
+  
+    padding-left: 25px;
+    text-align: left;
+}
+
+/*  CYRAMEART PORTFOLIO*/
 
 .image-fluid {
 
     width: 85%;
     max-height: 300px;
+
 }
+. #meimage{
+    border: #ba1899 1px solid ;
+    position: absolute;
+  
+}
+/**********************  Quote section*********************************/
+.quotes{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+ 
+  
+  
+    
+}
+.card{
+    padding: 0 auto;
+    height: 16rem;
+    width: 13rem;
+    border: none;
+    background-color:#DAE9E9 ;
+    border-radius: 0px 50px ;
+    margin-bottom: 5rem;
+    
+    
+ }
+ .auther{
+    display:inline-block;
+    width: 100%;
+    text-align: right;
+    margin-top: auto;
+   
+ }
 
 /*xxxxx FOOTER  xxxxxxx */
 footer {
@@ -99,6 +151,8 @@ i {
 
 
 
+
+
 /*xxxxx Media Queries at min-width  768px  xxxxxxx */
 
 @media screen and (min-width: 48em) {
@@ -128,7 +182,19 @@ i {
     .banner-info{
        
         text-align: left;
+        
     }
+    .craft-info{
+        border: yellow solid 2px;
+        max-width: 65%;
+        
+    }
+    #meimage{
+        border: #ba1899 1px solid ;
+        position: absolute;
+      
+    }
+    
     
    
   
@@ -136,10 +202,7 @@ i {
     /*xxxxx FOOTER  xxxxxxx */
     footer {
         margin: 0;
-        padding: 0 20px;
     }
-  
-    
     
     /* footer #logo-b {
     
@@ -197,8 +260,9 @@ i {
        margin:auto;
     }
     
-    
-        
+    footer {
+        padding: 0 20px;
+    }
     
     .navbar-nav {}
     
