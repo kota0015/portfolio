@@ -51,6 +51,8 @@ h1 span {
     width: 100%;
     opacity: 0.90;
     z-index: 10;
+
+
     
   
 }
@@ -189,11 +191,32 @@ i {
         max-width: 65%;
         
     }
+    .meimage_box{
+        border: #ba1899 solid 3px;
+        text-align: end;
+        padding-right: 20px;
+        position: relative;
+        
+        
+        top: -180px;
+
+    }
     #meimage{
-        border: #ba1899 1px solid ;
-        position: absolute;
+        /* display: flex;
+        position: relative;
+        left: 550px;
+        width: 200px;
+        top: -150px; */
+        opacity:1;
+        width: 30%;
+     
+       
+       
+       
+        
       
     }
+     /*xxxxx  Quotes section */
     
     
    
