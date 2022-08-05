@@ -9,7 +9,6 @@
 .btn-primary {
     --bs-btn-bg: var(--bs-primary);
     --bs-btn-border-color: var(--bs-primary);
-    
 }
 
 /*  CYRAMEART PORTFOLIO*/
@@ -21,7 +20,7 @@
 
 .fullbackground {
 
-    background: rgb(156, 116, 23) url(../images/camera-code-s.jpg) no-repeat center center;
+    background: url(../images/dubai-1.jpg) no-repeat center center;
     background-size: cover;
 
 
@@ -36,11 +35,12 @@
 
 /* var(--bs-light) */
 h1{
-   margin-bottom: 1em;}
+   margin-bottom: .5em;}
 
 h1 span {
     color: var(--bs-secondary);
 }
+
 
 .navbar-toggler {
 
@@ -53,6 +53,25 @@ h1 span {
     width: 85%;
     max-height: 300px;
 }
+/*xxxxx Hero Section  xxxxxxx */
+
+    
+    
+    .pro-image{
+        width: 100%;
+        margin-bottom: 10px;
+        max-height: 310px;
+    }
+    .info{
+        padding: 10px;
+    }
+    .tips-box{
+        background-color: #B5C4C4;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+
 
 
 /*xxxxx FOOTER  xxxxxxx */
@@ -138,9 +157,12 @@ i {
       
        
     }
+   
   
-  
-    
+
+
+
+
     /*xxxxx FOOTER  xxxxxxx */
     footer {
         margin: 0;
