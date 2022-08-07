@@ -74,7 +74,7 @@ h1 span {
         margin-top: 40px;
         margin-bottom: 20px;
     }
-    .gallery{
+    .gallery .container-xl{
         display: flex;
         flex-direction: column;
       
@@ -84,6 +84,9 @@ h1 span {
         margin-bottom: 16px;
         max-height: 220px;
 
+    }
+    .container-xl{
+        padding: 0 ;
     }
 
    
@@ -228,7 +231,7 @@ justify-content: space-between;
 
 
 /*xxxxx ---Gallery-------- xxxxxxx */
-.gallery{
+.gallery .container-xl{
     padding:0;
     display: grid;
     grid-template-columns:repeat(3 , 1fr);
