@@ -65,6 +65,10 @@ h1 span {
     .info{
         padding: 10px;
     }
+    .title h3{
+        color:white;
+        font-weight: bold;
+    }
     .tips-box{
         background-color: #B5C4C4;
         margin-top: 40px;
@@ -157,8 +161,64 @@ i {
       
        
     }
-   
-  
+   /*xxxxx Hero Section in Media queriy  xxxxxxx */
+   .hero-section{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    grid-template-areas:
+    'text1 image1'
+    'image2 text2';
+   }
+   .info{
+    padding: 15%;
+}
+.text1{
+    
+    grid-area: text1;
+
+}
+.text2{
+    grid-area: text2;
+}
+.pro-image{
+    max-height: 450px;
+    object-fit: cover;
+    
+    margin-bottom: 0;
+    
+}
+.tips-box{
+    background-color: #B5C4C4;
+    padding:2em;
+    display: flex;
+justify-content: space-between;
+
+}
+
+
+    .tips-box .tips{
+      
+        padding-left: 20px;
+        font-size: 1.2em;
+        width: 75%;
+        
+    
+    }
+
+ 
+
+
+
+
+/*xxxxx ---------------------------- xxxxxxx */
+
+
+
+
 
 
 
