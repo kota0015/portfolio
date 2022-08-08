@@ -47,6 +47,9 @@ h1 span {
     /* color: var(--bs-primary); */
     margin: auto;
 }
+.nav-item .btn{
+    margin-top: 40px;
+}
 
 .image-fluid {
 
@@ -165,6 +168,10 @@ i {
 
     .navbar-brand img {
         width: 35%;
+    }
+    .nav-item .btn{
+        margin-top: 0;
+        
     }
  
         

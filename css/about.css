@@ -32,6 +32,9 @@
 .navbar-brand img {
     width: 45%;
 }
+.nav-item .btn{
+    margin-top: 40px;
+}
 
 /* var(--bs-light) */
 h1{
@@ -173,6 +176,9 @@ i {
 
     .navbar-brand img {
         width: 35%;
+    }
+    .nav-item .btn{
+        margin-top: 0;
     }
  
         
