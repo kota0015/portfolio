@@ -1,0 +1,405 @@
+/* to update the root as needed  */
+:root {
+    --bs-primary: #ba1899;
+    --bs-primary-rgb: 186, 24, 153;
+    --bs-secondary: rgb(8, 194, 188);
+    --bs-secondary-rgb: 8, 194, 188;
+}
+
+.btn-primary {
+    --bs-btn-bg: var(--bs-primary);
+    --bs-btn-border-color: var(--bs-primary);
+}
+
+/*  CYRAMEART PORTFOLIO*/
+
+.wrapper {
+    max-width: 100em;
+    margin: auto;
+}
+
+.fullbackground {
+
+    background: url(../images/coding.jpg) no-repeat center center;
+    background-size: cover;
+
+
+
+
+
+}
+
+.navbar-brand img {
+    width: 45%;
+}
+
+/* var(--bs-light) */
+h1{
+   margin-bottom: .5em;}
+
+h1 span {
+    color: var(--bs-secondary);
+}
+
+
+.navbar-toggler {
+
+    /* color: var(--bs-primary); */
+    margin: auto;
+}
+
+.image-fluid {
+
+    width: 85%;
+    max-height: 300px;
+}
+/*xxxxx Hero Section  xxxxxxx */
+
+    
+    
+/*xxxxx Hero Section  xxxxxxx */
+
+    
+    
+.pro-image{
+    width: 100%;
+    margin-bottom: 10px;
+    max-height: 310px;
+}
+.info{
+    padding: 10px;
+}
+.title h3{
+    color:white;
+    font-weight: bold;
+    margin-left: 10px;
+    padding:10px;
+    
+}
+.tips-box{
+    background-color: #B5C4C4;
+    margin-top: 40px;
+    margin-bottom: 20px;
+ 
+    
+
+    
+}
+.tips p{
+    margin: 10px;
+
+}
+.tips ol{
+    margin-bottom: 10px;
+    
+}
+.gallery .container-xl{
+    display: flex;
+    flex-direction: column;
+  
+
+}
+.gallery h2{
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+.gallery-image{
+    margin-bottom: 16px;
+    
+
+}
+.container-xl{
+    padding: 0 ;
+}
+.gallery #top-image{
+   
+   
+    width: 100%;
+    
+ 
+
+}
+
+
+
+
+
+
+/*xxxxx FOOTER  xxxxxxx */
+footer {
+margin: 0;
+}
+
+footer #logo-b {
+
+height: 100px;
+width: auto;
+
+}
+.footer-column{
+
+margin: auto 0;
+
+
+}
+/*xxxxx Social media icons in footer  xxxxxxx */
+i {
+color: var(--bs-secondary);
+}
+.inquiry{
+
+text-align: center;
+}
+
+.sm-icons {
+flex-direction: row;
+font-size: 1.4em;
+justify-content: center;
+
+
+}
+
+.sm-icons .nav-link {
+
+
+
+margin: 10px;
+
+
+}
+
+
+
+
+/*xxxxx Media Queries at min-width  768px  xxxxxxx */
+
+@media screen and (min-width: 48em) {
+
+.navbar-brand{
+
+    text-align: left;
+    width: 50%;
+  
+}
+
+.navbar-brand img {
+    width: 35%;
+}
+
+    
+    
+
+/* var(--bs-light) */
+h1{
+    width:75% ;}
+
+h1 span {
+    color: var(--bs-secondary);
+
+}
+.banner-info{
+   
+    text-align: left;
+}
+.inspired-box{
+   
+    margin-top: 2em;
+    text-align:center;
+  
+   
+}
+/*xxxxx Hero Section in Media queriy  xxxxxxx */
+.hero-section{
+margin-top: 20px;
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr 1fr;
+justify-content: center;
+align-items: center;
+grid-template-areas:
+'text1 image1'
+'image2 text2';
+}
+.info{
+padding: 15%;
+}
+.text1{
+
+grid-area: text1;
+
+}
+.text2{
+grid-area: text2;
+}
+.pro-image{
+max-height: 450px;
+object-fit: cover;
+
+margin-bottom: 0;
+
+}
+.tips-box{
+background-color: #B5C4C4;
+padding:2em;
+display: flex;
+justify-content: space-between;
+
+}
+
+
+.tips-box .tips{
+  
+    padding-left: 20px;
+    font-size: 1.2em;
+    width: 75%;
+    
+
+}
+
+
+
+
+
+
+/*xxxxx ---Gallery-------- xxxxxxx */
+
+.gallery #top-image{
+    display: block;
+    margin-left: auto;
+  margin-right: auto;
+
+   
+    width: 60%;
+    
+ 
+
+}
+.gallery .container-xl{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas:
+    'po two'
+    'one two'
+    'one two'
+    'one no';
+    gap: 20px;
+    
+    
+   position: relative;
+   top:-300px
+  
+
+
+}
+.image-1{
+    grid-area: one;
+    max-width: 100%;
+  
+}
+.two{
+    grid-area: two;
+    max-width: 100%;
+ 
+}
+
+
+
+.gallery .gallery-image{
+   
+    opacity: .8;
+
+}
+
+
+
+
+
+/*xxxxx FOOTER  xxxxxxx */
+footer {
+    margin: 0;
+    padding: 0 20px;
+}
+
+
+
+/* footer #logo-b {
+
+    height: 100px;
+    width: auto;
+
+} */
+
+/*xxxxx Social media icons in footer  xxxxxxx */
+i {
+   
+   margin: 0 10px;
+}
+
+.sm-icons {
+    flex-direction: column;
+    font-size: 1.4em;
+    /* border: #d1d9ea solid 1px; */
+    justify-content: center;
+    align-items: center;
+    
+
+
+}
+li .nav-link {
+/* border: #ba1899 solid 1px; */
+margin-top: 0;
+margin-right: 0;
+
+
+
+  }
+    
+
+
+
+.inquiry{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   
+}
+hr{
+    margin: 10px auto;
+   
+
+   
+    
+}
+.copyright p{
+    text-align: right;
+   
+   margin:auto;
+}
+
+
+    
+
+.navbar-nav {}
+
+
+
+
+
+
+
+
+
+}
+
+/*xxxxx close Media  Queries at min-width  960px  xxxxxxx */
+
+
+
+
+
+
+
