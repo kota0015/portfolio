@@ -56,6 +56,15 @@ h1 span {
     width: 85%;
     max-height: 300px;
 }
+.image-fluid:hover {
+    transition: all;
+    transform: scale(.95);
+    cursor: pointer;
+  
+
+    width: 85%;
+    max-height: 300px;
+}
 
 
 /*xxxxx FOOTER  xxxxxxx */
