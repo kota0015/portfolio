@@ -46,7 +46,7 @@ h1 span {
 
 .navbar-toggler {
 
-    /* color: var(--bs-primary); */
+    border:white  solid 1px;
     margin: auto;
 }
 #meimage{
