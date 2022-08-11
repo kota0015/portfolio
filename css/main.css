@@ -70,6 +70,7 @@ h1 span {
 /*xxxxx FOOTER  xxxxxxx */
 footer {
     margin: 0;
+    margin-top: 10px;
 }
 
 footer #logo-b {
@@ -160,6 +161,7 @@ i {
     footer {
         margin: 0;
         padding: 0 20px;
+        margin-top: 20px;
     }
   
     

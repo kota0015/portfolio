@@ -49,9 +49,17 @@
    
     box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.19);
 }
+label{
+   margin-top: 10px;
+    width: 100%;
+    text-align: left;
+    margin-left: 5px;
+    font-weight: bold;
+  
+}
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
     color:white;
-    font-weight: bold;
+    font-size: .8em;
     
     
     
@@ -89,7 +97,8 @@ h2{color:white;
 .field:focus{
     border: rgba(173, 155, 155, 0.211) 2px solid;
     transition: all;
-    background-color: aliceblue;
+    background-color: rgba(240, 248, 255, 0.50);
+    outline: none;
 }
 .area{
     height: 200px;
@@ -114,7 +123,9 @@ h2{color:white;
     transition: .3s;
 }
 .btn:hover{
-    background-color: ;
+    border: var(--bs-primary) solid 1px;
+    color: var(--bs-primary);
+    background-color:rgba(255, 255, 255, 0.2);
 }
 
 @media screen and (min-width: 48em) {
