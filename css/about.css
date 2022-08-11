@@ -75,11 +75,7 @@ h1 span {
     max-height: 300px;
 
 }
-. #meimage{
-    border: #ba1899 1px solid ;
-    position: absolute;
-  
-}
+ 
 /**********************  Quote section*********************************/
 .grid-container{
   display: flex;
