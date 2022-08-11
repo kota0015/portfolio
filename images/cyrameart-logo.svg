@@ -1,1 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 307.4 177.53"><defs><style>.c{fill:#06bab5;}.d,.e{fill:#263d54;}.e{font-size:72px;opacity:.14;}.e,.f{font-family:EdwardianScriptITC, Edwardian Script ITC;}.f{font-size:36px;}</style></defs><g id="a"><text class="f" transform="translate(17.4 45.42)"><tspan class="d" x="0" y="0">Cyrame</tspan><tspan class="c" x="90.62" y="0">art</tspan></text></g><g id="b"><text class="e" transform="translate(0 59.04)"><tspan x="0" y="0">C</tspan></text></g></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.4.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 136.5 55.8" style="enable-background:new 0 0 136.5 55.8;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#263D54;}
+	.st1{font-family:'EdwardianScriptITC';}
+	.st2{font-size:36px;}
+	.st3{fill:#06BAB5;}
+	.st4{font-size:72px;}
+</style>
+<g id="a">
+	<text transform="matrix(1 0 0 1 9.783 39.5051)" class="st0 st1 st2">Cyrame</text>
+	<text transform="matrix(1 0 0 1 100.403 39.5051)" class="st3 st1 st2">art</text>
+</g>
+<g id="b">
+	<text transform="matrix(1 0 0 1 -7.617 53.1251)" class="st0 st1 st4">C</text>
+</g>
+</svg>

@@ -1,0 +1,165 @@
+
+
+:root {
+    --bs-primary: #ba1899;
+    --bs-primary-rgb: 186, 24, 153;
+    --bs-secondary: rgb(8, 194, 188);
+    --bs-secondary-rgb: 8, 194, 188;
+}
+
+.logo-box {
+    text-align:center;
+    margin-top: 1rem;
+}
+.logo-box img{
+    width: 50%;
+
+}
+.wrapper{
+    height: 100vh;
+    background: url(../images/coding.jpg) no-repeat center center;
+   
+    background-size: cover;
+  
+    z-index: -1;
+
+
+
+}
+.container{
+    width:100%;
+ 
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    
+    padding: 20px 20px;
+    
+   
+}
+.contact-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+   
+    background-color: rgba(255, 255, 255, 0.288);
+   
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.19);
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color:white;
+    font-weight: bold;
+    
+    
+    
+  }
+ 
+  
+  
+    
+
+.left{
+    height: 100%;
+}
+.right{
+    padding: 0;
+    margin: 10px;
+}
+h2{color:white;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.field{
+    /* margin: 5px; */
+    width: 100%;
+    padding: .5rem 1rem;
+    margin-top: 10px;
+    background-color: rgba(68, 90, 65, 0.308);
+    border: rgb(173, 155, 155) 1px solid;
+    transition: .3s;
+
+}
+.field:hover{
+    background-color: rgba(193, 162, 88, 0.308);
+
+}
+.field:focus{
+    border: rgba(173, 155, 155, 0.211) 2px solid;
+    transition: all;
+    background-color: aliceblue;
+}
+.area{
+    height: 200px;
+}
+.center{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.btn{
+    
+    width: 50%;
+    padding: .5rem 1rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    /* outline: none; */
+    /* border: none; */
+    background:var(--bs-primary);
+    
+    transition: .3s;
+}
+.btn:hover{
+    background-color: ;
+}
+
+@media screen and (min-width: 48em) {
+
+    .logo-box img{
+        width: 25%;
+    
+    }
+    .contact-box{
+        min-width: 850px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.288);
+       
+        box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.19);
+    }
+    .right{
+        padding: 30px 40px;
+    }
+    h2{
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }
+    .field{
+        margin: 5px;
+        width: 100%;
+        padding: .5rem 1rem;
+        background-color: rgba(68, 90, 65, 0.308);
+        border: rgb(173, 155, 155) 1px solid;
+        transition: .3s;
+    
+    }
+    .center{
+        margin-left: 5px;
+        justify-content:flex-start;
+        align-items: center;
+    }
+
+
+
+
+
+
+
+}
