@@ -1,0 +1,65 @@
+
+
+:root {
+    --bs-primary: #ba1899;
+    --bs-primary-rgb: 186, 24, 153;
+    --bs-secondary: rgb(8, 194, 188);
+    --bs-secondary-rgb: 8, 194, 188;
+}
+
+
+
+.logo-box {
+    text-align:center;
+    padding-top:20px ;
+   
+}
+.logo-box img{
+    width: 50%;
+
+}
+.logo-box{
+    
+    
+    background-size: cover;
+  
+    z-index: -1;
+
+    background:url(../images/coding.jpg) rgba(26, 24, 25, 0.7) no-repeat center center;
+    background-size:cover;
+    background-blend-mode: multiply;
+
+}
+h1{
+    padding:50px 0;
+    color: var(--bs-primary);
+}
+h2{
+    margin: 100px auto;
+    text-align:center ;
+    font-size: 3rem;
+    color: red;
+    background-color: yellow;
+}
+p{
+    margin: 100px auto;
+    text-align:center ;
+    font-size: 3rem;
+    
+}
+
+
+
+
+
+
+/* xxxxxxxxxxxxxxxxxxx   media query starts  xxxxxxxxxxxxxxxxxxxxxx*/
+@media screen and (min-width: 48em) {
+
+   
+    
+
+
+
+
+}
